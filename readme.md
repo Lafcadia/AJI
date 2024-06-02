@@ -1,6 +1,6 @@
-## Java-Installer
+## Automatic Java (development pack) Installer
 
-As the name indicates, it is an automatic installer of Java (but only for Long Term Service versions [8, 11, 17, 21]).
+As the name indicates, it is an automatic installer of JDK (but only for Long Term Service versions [8, 11, 17, 21]).
 
 It has a friendly user interface. I frequently use it to install a Java on public computers in our school.
 
