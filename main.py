@@ -3,6 +3,7 @@ import os
 import jdk
 from PySide6.QtWidgets import QApplication, QMainWindow, QMessageBox
 from ui import Ui_MainWindow
+from PySide6.QtGui import QIcon
 
 def java_install(ver, add_path=False):
     try:
@@ -35,5 +36,7 @@ class MainWindow(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = MainWindow()
+    icon = QIcon("icon.ico")
+    w.setWindowIcon(icon)
     w.show()
     app.exec()
