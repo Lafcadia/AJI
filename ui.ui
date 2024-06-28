@@ -7,18 +7,18 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>75</height>
+    <height>52</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Java 自动安装</string>
+   <string>Automatic Java Installer</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
+      <y>10</y>
       <width>281</width>
       <height>31</height>
      </rect>
@@ -30,11 +30,11 @@
       <x>300</x>
       <y>10</y>
       <width>181</width>
-      <height>51</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>一键安装</string>
+     <string>Install...</string>
     </property>
    </widget>
   </widget>
